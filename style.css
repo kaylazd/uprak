@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+p {
+    color: black;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: blue;
+    margin: 0 15px;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.photo img {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+th {
+    background-color: orange;
+}
